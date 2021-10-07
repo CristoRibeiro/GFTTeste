@@ -1,0 +1,16 @@
+C:\Projetos\TesteGFT\TesteGFTConsoleApplication\bin\Debug\net5.0\TesteGFTConsoleApplication.exe
+C:\Projetos\TesteGFT\TesteGFTConsoleApplication\bin\Debug\net5.0\TesteGFTConsoleApplication.deps.json
+C:\Projetos\TesteGFT\TesteGFTConsoleApplication\bin\Debug\net5.0\TesteGFTConsoleApplication.runtimeconfig.json
+C:\Projetos\TesteGFT\TesteGFTConsoleApplication\bin\Debug\net5.0\TesteGFTConsoleApplication.runtimeconfig.dev.json
+C:\Projetos\TesteGFT\TesteGFTConsoleApplication\bin\Debug\net5.0\TesteGFTConsoleApplication.dll
+C:\Projetos\TesteGFT\TesteGFTConsoleApplication\bin\Debug\net5.0\ref\TesteGFTConsoleApplication.dll
+C:\Projetos\TesteGFT\TesteGFTConsoleApplication\bin\Debug\net5.0\TesteGFTConsoleApplication.pdb
+C:\Projetos\TesteGFT\TesteGFTConsoleApplication\obj\Debug\net5.0\TesteGFTConsoleApplication.csproj.AssemblyReference.cache
+C:\Projetos\TesteGFT\TesteGFTConsoleApplication\obj\Debug\net5.0\TesteGFTConsoleApplication.GeneratedMSBuildEditorConfig.editorconfig
+C:\Projetos\TesteGFT\TesteGFTConsoleApplication\obj\Debug\net5.0\TesteGFTConsoleApplication.AssemblyInfoInputs.cache
+C:\Projetos\TesteGFT\TesteGFTConsoleApplication\obj\Debug\net5.0\TesteGFTConsoleApplication.AssemblyInfo.cs
+C:\Projetos\TesteGFT\TesteGFTConsoleApplication\obj\Debug\net5.0\TesteGFTConsoleApplication.csproj.CoreCompileInputs.cache
+C:\Projetos\TesteGFT\TesteGFTConsoleApplication\obj\Debug\net5.0\TesteGFTConsoleApplication.dll
+C:\Projetos\TesteGFT\TesteGFTConsoleApplication\obj\Debug\net5.0\ref\TesteGFTConsoleApplication.dll
+C:\Projetos\TesteGFT\TesteGFTConsoleApplication\obj\Debug\net5.0\TesteGFTConsoleApplication.pdb
+C:\Projetos\TesteGFT\TesteGFTConsoleApplication\obj\Debug\net5.0\TesteGFTConsoleApplication.genruntimeconfig.cache
