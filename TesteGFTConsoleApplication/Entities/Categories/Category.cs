@@ -11,11 +11,12 @@ namespace TesteGFTConsoleApplication.Entities.Categories
         {
             ICategory categoryReturn = null;
 
-            List<ICategory> categories = new List<ICategory>();
-            categories.Add(new Expired());
-            categories.Add(new HighRisk());
-            categories.Add(new MediumRisk());
-            categories.Add(new NoCategory());
+            List<ICategory> categories = new List<ICategory>{
+                new Expired(),
+                new HighRisk(),
+                new MediumRisk(),
+                new NoCategory()
+            };
 
             foreach (var category in categories)
             {
