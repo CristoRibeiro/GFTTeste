@@ -12,7 +12,7 @@ namespace TesteGFTConsoleApplication.Entities.Categories
 
             if ((referenceDate - trade.NextPaymentDate).TotalDays > 30)
             {
-             category = CategoryEnum.EXPIRED.ToString();
+             category = CategoryEnum.EXPIRED.ToString();//teste
             }
             
             return category;
