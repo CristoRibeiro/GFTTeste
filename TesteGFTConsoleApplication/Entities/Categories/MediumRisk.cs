@@ -6,15 +6,11 @@ namespace TesteGFTConsoleApplication.Entities.Categories
 {
     public class MediumRisk : ICategory
     {
-        public string GetCategory(ITrade trade, DateTime dateReference)
-        {
-            string category = string.Empty;
+        public string Name => CategoryEnum.MEDIUMRISK.ToString();
 
-            if (trade.Value > 1000000 & trade.ClientSector.ToUpper().Equals(ClientSectorEnum.Public.ToString().ToUpper()))
-            {
-                category = CategoryEnum.MEDIUMRISK.ToString();
-            }
-            return category;
+        public bool UseCategory(ITrade trade, DateTime dateReference)
+        {
+            return (trade.Value > 1000000 & trade.ClientSector.ToUpper().Equals(ClientSectorEnum.Public.ToString().ToUpper()));         
         }
     }
 }

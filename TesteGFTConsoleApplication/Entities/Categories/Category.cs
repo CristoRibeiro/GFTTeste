@@ -7,32 +7,26 @@ namespace TesteGFTConsoleApplication.Entities.Categories
 {
     public static class Category
     {
-        public static string GetCategory(ITrade trade, DateTime referenceDate)
+        public static ICategory GetCategory(ITrade trade, DateTime referenceDate)
         {
-            string tradeCategory = string.Empty;
+            ICategory categoryReturn = null;
 
             List<ICategory> categories = new List<ICategory>();
             categories.Add(new Expired());
             categories.Add(new HighRisk());
-            categories.Add(new MediumRisk());            
+            categories.Add(new MediumRisk());
+            categories.Add(new NoCategory());
 
             foreach (var category in categories)
             {
-                tradeCategory = category.GetCategory(trade,referenceDate);
-
-                if (tradeCategory != string.Empty)
+                if (category.UseCategory(trade,referenceDate))
                 {
-                    break;
-                    
+                    categoryReturn = category;
+                    ;
                 }
             }
 
-            if (tradeCategory.Equals(string.Empty))
-            {
-                tradeCategory = CategoryEnum.NOCATEGORY.ToString();
-            }
-
-            return tradeCategory;
+            return categoryReturn;
         }
     }
 }

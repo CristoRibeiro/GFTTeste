@@ -6,16 +6,11 @@ namespace TesteGFTConsoleApplication.Entities.Categories
 {
     public class Expired : ICategory
     {
-        public string GetCategory(ITrade trade, DateTime referenceDate)
+        public string Name {get{return CategoryEnum.EXPIRED.ToString(); }}
+        
+        public Boolean UseCategory(ITrade trade, DateTime referenceDate)
         {
-            string category = string.Empty;
-
-            if ((referenceDate - trade.NextPaymentDate).TotalDays > 30)
-            {
-             category = CategoryEnum.EXPIRED.ToString();//teste
-            }
-            
-            return category;
+            return (referenceDate - trade.NextPaymentDate).TotalDays > 30;
         }
        
     }

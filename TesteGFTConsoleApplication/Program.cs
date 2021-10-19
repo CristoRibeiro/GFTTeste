@@ -42,7 +42,7 @@ namespace TesteGFTConsoleApplication
 
                 foreach (var trade in trades)
                 {
-                    Console.WriteLine(trade.GetCategory(referenceDate));
+                    Console.WriteLine(Category.GetCategory(trade, referenceDate).Name);                    
                 }
             }
             catch (System.Exception ex)

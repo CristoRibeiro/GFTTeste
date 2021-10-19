@@ -5,7 +5,8 @@ namespace TesteGFTConsoleApplication.Entities.Categories
 {
     public interface ICategory
     {
-         string GetCategory(ITrade trade, DateTime referenceDate);
+         Boolean UseCategory(ITrade trade, DateTime referenceDate);
+         string Name{get;}
          
     }
 }

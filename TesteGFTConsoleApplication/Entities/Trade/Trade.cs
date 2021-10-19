@@ -15,10 +15,6 @@ namespace TesteGFTConsoleApplication.Entities.Trade
         public string ClientSector {get;}
 
         public DateTime NextPaymentDate {get;}
-
-        public string GetCategory(DateTime referenceDate){
-            return Category.GetCategory(this, referenceDate);
-        }
         
     }
 }

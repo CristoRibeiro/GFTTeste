@@ -6,17 +6,13 @@ namespace TesteGFTConsoleApplication.Entities.Categories
 {
     public class HighRisk : ICategory
     {
-        public string GetCategory(ITrade trade, DateTime dateReference)
+        public string Name => CategoryEnum.HIGHRISK.ToString() ;
+
+        public bool UseCategory(ITrade trade, DateTime dateReference)
         {
-            string category = string.Empty;
-
-            if (trade.Value > 1000000 & trade.ClientSector.ToUpper().Equals(ClientSectorEnum.Private.ToString().ToUpper()))
-            {
-                category = CategoryEnum.HIGHRISK.ToString();
-            }
-
-            return category;
+            return (trade.Value > 1000000 & trade.ClientSector.ToUpper().Equals(ClientSectorEnum.Private.ToString().ToUpper()));
         }
-        
+
+
     }
 }
