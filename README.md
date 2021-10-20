@@ -1,6 +1,3 @@
-# GFTTeste
-Repositorio criado para avaliação GFT
-
 Questão 1
 
 A avaliação consiste em criar um projeto do Tipo ConsoleApplication e categorizar os Trades de um determinado Banco.
