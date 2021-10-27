@@ -9,13 +9,12 @@ namespace TesteGFTConsoleApplication.Entities.Categories
     {
         public static ICategory GetCategory(ITrade trade, DateTime referenceDate)
         {
-            ICategory categoryReturn = null;
+            ICategory categoryReturn = new NoCategory();
 
             List<ICategory> categories = new List<ICategory>{
                 new Expired(),
                 new HighRisk(),
-                new MediumRisk(),
-                new NoCategory()
+                new MediumRisk()
             };
 
             foreach (var category in categories)
